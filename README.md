@@ -1,5 +1,5 @@
 # even-more-pizza
-⚠️ NOT OPTIMIZED ⚠️ - will not give you the best score, for understanding the basic methods only. 
+⚠️ NOT OPTIMIZED ⚠️ - takes a lot of time to run - will not give you the best score, for understanding the basic methods only. 
 
 Solution for hashcode 2021 Even more pizza practice problem v3 2021, JavaScript (Node.JS)
 
