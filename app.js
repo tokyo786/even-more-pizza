@@ -17,6 +17,7 @@ function get_output(filename) {
     let pizza_indexes_list = pizza_ingredients_list.map((_, i) => i)
     
     // Do better sorting to optimize more in future
+    // Try without sorting and try different methods to see different scores
     
     // sort the pizza list to from most to least ingredients
     let sorted_pizza_index_list = pizza_indexes_list.sort((a, b) => pizza_ingredients_list[b].length - pizza_ingredients_list[a].length)
@@ -73,6 +74,8 @@ function get_output(filename) {
                     // add the current index and break the loop
                     // (We can do this as the list is sorted from most to least ingredients)
                     index_to_add = p
+
+                    // try to change the `break` to `continue` to see different scores
                     break;
                 }
     
@@ -116,6 +119,7 @@ function get_output(filename) {
     // for every team index
     for (let i = 0; i < max_teams; i++) {
         // deliver pizzas to different teams
+        // try with different orders
         deliver(2, two_person_teams, i)
         deliver(3, three_person_teams, i)
         deliver(4, four_person_teams, i)
