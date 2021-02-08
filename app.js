@@ -134,7 +134,9 @@ function get_output(filename) {
     
     function count_score(deliveries_with_ingredients) {
         return deliveries_with_ingredients.map(d => {
-            return [...new Set(d.flat())].length**2
+            // make a set from 2d ingredients array 
+            // converted (flattened) to 1d ingredients array
+            return new Set(d.flat()).size**2
         }).reduce((a, b) => a + b, 0)
     }
     
@@ -161,7 +163,7 @@ function get_output(filename) {
 // // Please note that the solution is unoptimized, it can take A LOT OF TIME to run.
 
 // get_output('a_example')
-// get_output('b_little_bit_of_everything')
-get_output('c_many_ingredients')
-get_output('d_many_pizzas')
-get_output('e_many_teams')
+get_output('b_little_bit_of_everything')
+// get_output('c_many_ingredients')
+// get_output('d_many_pizzas')
+// get_output('e_many_teams')
