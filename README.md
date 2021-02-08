@@ -12,5 +12,5 @@ In brief:
 3. Optimize (Not done in this repo)
 
 To run:
-1. open the repository in terminal.
+1. Open the repository in terminal.
 2. `node app` - make sure [Node.js](https://nodejs.org) is installed.
