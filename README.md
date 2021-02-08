@@ -1,7 +1,7 @@
 # even-more-pizza
 ⚠️ NOT OPTIMIZED ⚠️ - takes a lot of time to run - will not give you the best score, for understanding the basic methods only. 
 
-Solution for hashcode 2021 Even more pizza practice problem v3 2021, JavaScript ([Node.JS](https://nodejs.org))
+Solution for hashcode 2021 Even more pizza practice problem v3 2021, JavaScript ([Node.js](https://nodejs.org))
 
 `app.js` is the program file, files ending in `.in` extension are input datasets, files ending in `.out` extension are output datasets.
 
@@ -13,4 +13,4 @@ In brief:
 
 To run:
 1. open the repository in terminal.
-2. `node app` - make sure [node.js](https://nodejs.org) is installed.
+2. `node app` - make sure [Node.js](https://nodejs.org) is installed.
